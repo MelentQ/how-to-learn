@@ -188,30 +188,36 @@
         <nav class="footer__column footer__column_content_info">
           <h2 class="footer__column-heading">О Практикуме</h2>
 
-          <div class="footer__column-links">
-            <a class="footer__column-link" href="#">Главная</a>
-            <a class="footer__column-link" href="#">Концепция</a>
-            <a class="footer__column-link" href="#">Наставники</a>
-          </div>
+          <!-- Пришлось добавить свой класс для ссылки footer__link,
+          чтобы реализовать список ul. -->
+          <ul class="footer__column-links">
+            <li class="footer__column-link"><a class="footer__link" href="#">Главная</a></li>
+
+            <li class="footer__column-link"><a class="footer__link" href="#">Концепция</a></li>
+
+            <li class="footer__column-link"><a class="footer__link" href="#">Наставники</a></li>
+          </ul>
         </nav>
 
         <div class="footer__column footer__column_content_social">
           <h2 class="footer__column-heading">Соцсети</h2>
 
-          <div class="footer__column-links">
-            <a class="footer__column-link" href="#">
+          <ul class="footer__column-links">
+            <li class="footer__column-link"><a class="footer__link" href="#">
               <img class="footer__social-icon" src="./images/facebook_color_white.svg" alt="Иконка Facebook">
               Facebook
-            </a>
-            <a class="footer__column-link" href="#">
+            </a></li>
+
+            <li class="footer__column-link"><a class="footer__link" href="#">
               <img class="footer__social-icon" src="./images/vk_color_white.svg" alt="Иконка ВКонтакте">
               ВКонтакте
-            </a>
-            <a class="footer__column-link" href="#">
+            </a></li>
+
+            <li class="footer__column-link"><a class="footer__link" href="#">
               <img class="footer__social-icon" src="./images/instagram_color_white.svg" alt="Иконка Instagram">
               Instagram
-            </a>
-          </div>
+            </a></li>
+          </ul>
         </div>
 
       </div>
