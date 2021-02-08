@@ -2,4 +2,12 @@
   z-index: 9;
 
   width: 183px;
+
+  text-decoration: none;
+  opacity: 1;
+  transition: opacity 0.3s linear;
+}
+
+.logo:hover {
+  opacity: 0.75;
 }
